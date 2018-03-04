@@ -34,6 +34,10 @@ public class StatusTest {
 		StatusUpdate status = new StatusUpdate("This is a test status update");
 		
 		statusUpdateDao.save(status);
-		assertNotNull("");
+		assertNotNull("Non null ID", status.getId()); 
+		assertNotNull("Non null Date", status.getAdded()); 
+		
+		StatusUpdate retrieved = statusUpdateDao.findOne(status.getId());
+
 	}
 }
