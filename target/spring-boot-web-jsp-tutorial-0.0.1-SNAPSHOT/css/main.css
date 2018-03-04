@@ -1,0 +1,39 @@
+.navbar {
+	background-color: #184ea5;
+	border-color: #6a717c;
+}
+
+.navbar>.container>div>.nav>li>a {
+	background: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar>.container>div>.nav>li>a:hover {
+	background: none;
+	color: #adb3bc;
+	font-weight: bold;
+}
+
+.navbar>.container>.navbar-header>a {
+	background: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar>.container>.navbar-header>a:hover {
+	background: none;
+	color: #adb3bc;
+	font-weight: bold;
+}
+
+.panel>.panel-heading {
+	background-image: none;
+	background-color: #184ea5;
+	color: white;
+	font-weight: bold;
+}
+
+textarea {
+	width: 100%;
+}
